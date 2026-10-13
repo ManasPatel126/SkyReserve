@@ -11,15 +11,21 @@ An interactive full-stack database application designed to manage core airline o
 - Flask (`pip install flask`)
 
 ### 2. Run the Application
-- **Option A (One-Click Launch)**: Double-click **`start.bat`** in Windows Explorer. It automatically detects Python, starts the Flask server, and launches your default web browser directly to `http://localhost:5000`.
-- **Option B (PowerShell / Command Prompt)**:
-  ```powershell
+- **Option A (Windows Batch One-Click)**: Double-click **`start.bat`** in Windows Explorer. It automatically detects Python, starts the Flask server, and launches your default web browser directly to `http://localhost:5000`.
+- **Option B (Bash / Linux / macOS / Git Bash)**:
+  ```bash
+  bash start.sh
+  # Or make executable and run:
+  chmod +x start.sh && ./start.sh
+  ```
+- **Option C (Standard Command Line)**:
+  ```bash
   python app.py
   ```
   Then open: **`http://localhost:5000`**
 
 ### 3. Run Automated Verification Test Suite
-```powershell
+```bash
 python test_suite.py
 ```
 
